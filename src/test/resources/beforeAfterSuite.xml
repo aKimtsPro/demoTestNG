@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="before/after suite">
+    <test name="before/after test">
+
+        <groups>
+            <run>
+                <include name="group1"/>
+                <include name="group2"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="bstorm.akimt.demoTestNG.before_after.ClassA"/>
+            <class name="bstorm.akimt.demoTestNG.before_after.ClassB"/>
+        </classes>
+    </test>
+</suite>

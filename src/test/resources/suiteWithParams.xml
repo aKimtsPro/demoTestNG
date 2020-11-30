@@ -1,0 +1,27 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="with param suite">
+    <test name="with param test">
+
+        <parameter name="suiteParameter" value="mon param"/>
+
+<!--        types valides :-->
+<!--        -String -->
+<!--        -int    -->
+<!--        -boolean-->
+<!--        -char   -->
+<!--        -byte   -->
+<!--        -double -->
+<!--        -float  -->
+<!--        -long   -->
+<!--        -short  -->
+
+        <groups>
+            <run>
+                <include name="param"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="bstorm.akimt.demoTestNG.LancerTestDemoSuite"/>
+        </classes>
+    </test>
+</suite>

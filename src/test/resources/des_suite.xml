@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="des suite">
+
+    <test name="des tests">
+        <groups>
+            <run>
+                <include name="lancer"/>
+                <include name="bonus"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="bstorm.akimt.demoTestNG.correction.LancerDesTest"/>
+        </classes>
+    </test>
+
+</suite>

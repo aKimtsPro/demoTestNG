@@ -10,8 +10,10 @@ Créez un classe LancerDes dans laquelle on trouvera les méthodes suivantes:
 
 	- le nombre de face pair, non nul et positif : 
 		sinon -> NombreFaceException
+
 	- nbr de lancé non nul et positif : 
 		sinon -> NombreLanceException
+
 	- bonus entre -20 et 20 : 
 		sinon -> BonusException
 

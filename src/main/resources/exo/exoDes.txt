@@ -1,0 +1,21 @@
+
+Créez un classe LancerDes dans laquelle on trouvera les méthodes suivantes:
+
+- Lancer D4 : obtenir une valeur entre 1 et 4
+- Lancer D6 : obtenir une valeur entre 1 et 6
+- Lancer D20 : obtenir une valeur entre 1 et 20
+- Lancer D100 : obtenir une valeur entre 1 et 100
+
+- Lancer custom (faces, nbr lancé, bonus):
+
+	- le nombre de face pair, non nul et positif : 
+		sinon -> NombreFaceException
+	- nbr de lancé non nul et positif : 
+		sinon -> NombreLanceException
+	- bonus entre -20 et 20 : 
+		sinon -> BonusException
+
+	- verifier que les données entrée mène à un valeur dans un intervalle correct : 
+		3D8 + 10 -> 13-34
+
+Créez des test unitaires afin de vérifier le bon fonctionnement des méthodes de cette classe.

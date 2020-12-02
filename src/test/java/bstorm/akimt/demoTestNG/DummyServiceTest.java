@@ -54,7 +54,7 @@ public class DummyServiceTest {
         while(true);
     }
 
-    @Test(invocationCount = 3, invocationTimeOut = 1000, priority = 5)
+    @Test( invocationCount = 3, invocationTimeOut = 1000, priority = 5 )
     public void testSleep(){
         try {
             Thread.sleep(400);

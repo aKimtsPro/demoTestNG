@@ -1,5 +1,6 @@
 package bstorm.akimt.demoTestNG.before_after;
 
+import bstorm.akimt.demoTestNG.before_after.suite.AbstractClassGest;
 import org.testng.annotations.*;
 
 // suite - fait
@@ -39,7 +40,7 @@ import org.testng.annotations.*;
 // - - after test
 // - - - after suite
 
-public class ClassB {
+public class ClassB extends AbstractClassGest {
 
     @Test(groups = "group1")
     public void test1(){
@@ -51,69 +52,4 @@ public class ClassB {
         System.out.println("test 2 from ClassB in group2");
     }
 
-
-    // region After/Before
-
-    @BeforeSuite(alwaysRun = true)
-    public void beforeSuite(){
-        System.out.println("Before suite");
-    }
-
-    @BeforeTest(alwaysRun = true)
-    public void beforeTest(){
-        System.out.println("Before test");
-    }
-
-    @BeforeGroups(groups = "group1")
-    public void beforeGroup1(){
-        System.out.println("Before group1");
-    }
-
-    @BeforeGroups(groups = "group2")
-    public void beforeGroup2(){
-        System.out.println("Before group2");
-    }
-
-    @BeforeClass(alwaysRun = true)
-    public void beforeClass(){ // liée à la présente classe
-        System.out.println("Before ClassB");
-    }
-
-    @BeforeMethod(alwaysRun = true)
-    public void beforeMethod(){
-        System.out.println("Before a test");
-    }
-
-    @AfterMethod(alwaysRun = true)
-    public void afterMethod(){
-        System.out.println("After method");
-    }
-
-    @AfterClass(alwaysRun = true)
-    public void afterClass(){
-        System.out.println("After ClassB");
-    }
-
-    @AfterGroups(groups = "group1")
-    public void afterGroup1(){
-        System.out.println("After group1");
-    }
-
-    @AfterGroups(groups = "group2")
-    public void afterGroup2(){
-        System.out.println("After group2");
-    }
-
-    @AfterTest(alwaysRun = true)
-    public void afterTest(){
-        System.out.println("After test");
-    }
-
-    @AfterSuite(alwaysRun = true)
-    public void afterSuite(){
-        System.out.println("After suite");
-    }
-
-
-    // endregion
 }

@@ -11,6 +11,7 @@
         <classes>
             <class name="bstorm.akimt.demoTestNG.before_after.ClassA"/>
             <class name="bstorm.akimt.demoTestNG.before_after.ClassB"/>
+            <class name="bstorm.akimt.demoTestNG.before_after.suite.SuiteGest"/>
         </classes>
     </test>
 </suite>

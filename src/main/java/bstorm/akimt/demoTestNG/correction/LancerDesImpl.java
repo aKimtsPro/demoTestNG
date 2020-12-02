@@ -1,8 +1,14 @@
 package bstorm.akimt.demoTestNG.correction;
 
-import java.util.Random;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
-public class LancerDesImpl implements LancerDes{
+import java.util.Random;
+import java.util.Scanner;
+
+@Service
+public class LancerDesImpl implements LancerDesService {
+
     @Override
     public int D4() {
         return new Random().nextInt(4) + 1;

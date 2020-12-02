@@ -1,31 +1,37 @@
 package bstorm.akimt.demoTestNG.correction;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.test.context.testng.AbstractTestNGSpringContextTests;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class LancerDesTest {
+@SpringBootTest
+@Test(groups = "spring")
+public class LancerDesTest extends AbstractTestNGSpringContextTests {
 
-    private LancerDes des = new LancerDesImpl();
+    @Autowired
+    private LancerDesService des;
 
-    @Test(invocationCount = 1_000_000, invocationTimeOut = 1000, groups = "lancer")
+    @Test(invocationCount = 1_000_000, invocationTimeOut = 3000, groups = "lancer")
     public void testD4(){
         int rslt = des.D4();
         Assert.assertTrue( rslt >= 1 && rslt <= 4);
     }
 
-    @Test(invocationCount = 1_000_000, invocationTimeOut = 1000, groups = "lancer")
+    @Test(invocationCount = 1_000_000, invocationTimeOut = 2000, groups = "lancer")
     public void testD6(){
         int rslt = des.D6();
         Assert.assertTrue( rslt >= 1 && rslt <= 6 );
     }
 
-    @Test(invocationCount = 1_000_000, invocationTimeOut = 1000, groups = "lancer")
+    @Test(invocationCount = 1_000_000, invocationTimeOut = 2000, groups = "lancer")
     public void testD20(){
         int rslt = des.D20();
         Assert.assertTrue( rslt >= 1 && rslt <= 20 );
     }
 
-    @Test(invocationCount = 1_000_000, invocationTimeOut = 1000, groups = "lancer")
+    @Test(invocationCount = 1_000_000, invocationTimeOut = 2000, groups = "lancer")
     public void testD100(){
         int rslt = des.D100();
         Assert.assertTrue( rslt >= 1 && rslt <= 100 );
@@ -57,7 +63,7 @@ public class LancerDesTest {
         des.DCustom(4, 1, 21);
     }
 
-    @Test( invocationCount = 1_000_000, invocationTimeOut = 1000, groups = {"DCustom", "lancer"})
+    @Test( invocationCount = 1_000_000, invocationTimeOut = 2000, groups = {"DCustom", "lancer"})
     public void testDCustom(){
         int nbrFace = 8;
         int nbrLancer = 3;

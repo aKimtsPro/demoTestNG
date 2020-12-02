@@ -1,6 +1,9 @@
 package bstorm.akimt.demoTestNG.correction;
 
-public interface LancerDes {
+import org.springframework.stereotype.Service;
+
+
+public interface LancerDesService {
 
     int D4();
     int D6();

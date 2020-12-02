@@ -1,36 +1,1402 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="8" total="11" passed="3" failed="0" skipped="0">
+<testng-results ignored="5" total="36" passed="26" failed="4" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-12-02T16:28:13 CET" name="desSuite" finished-at="2020-12-02T16:28:16 CET" duration-ms="3097">
+  <suite started-at="2020-12-02T16:56:51 CET" name="correction suite" finished-at="2020-12-02T16:56:55 CET" duration-ms="3466">
     <groups>
       <group name="spring">
-        <method signature="LancerDesTest.testDCustom_BonusException_intervalle_inf()[pri:0, instance:bstorm.akimt.demoTestNG.correction.des.LancerDesTest@432038ec]" name="testDCustom_BonusException_intervalle_inf" class="bstorm.akimt.demoTestNG.correction.des.LancerDesTest"/>
-        <method signature="LancerDesTest.testDCustom_BonusException_intervalle_sup()[pri:0, instance:bstorm.akimt.demoTestNG.correction.des.LancerDesTest@432038ec]" name="testDCustom_BonusException_intervalle_sup" class="bstorm.akimt.demoTestNG.correction.des.LancerDesTest"/>
+        <method signature="LancerDesTest.testDCustom_BonusException_intervalle_inf()[pri:0, instance:bstorm.akimt.demoTestNG.correction.des.LancerDesTest@1fb669c3]" name="testDCustom_BonusException_intervalle_inf" class="bstorm.akimt.demoTestNG.correction.des.LancerDesTest"/>
+        <method signature="LancerDesTest.testDCustom_BonusException_intervalle_sup()[pri:0, instance:bstorm.akimt.demoTestNG.correction.des.LancerDesTest@1fb669c3]" name="testDCustom_BonusException_intervalle_sup" class="bstorm.akimt.demoTestNG.correction.des.LancerDesTest"/>
+        <method signature="LancerDesTest.testDCustom_NbrFaceException_pair()[pri:0, instance:bstorm.akimt.demoTestNG.correction.des.LancerDesTest@1fb669c3]" name="testDCustom_NbrFaceException_pair" class="bstorm.akimt.demoTestNG.correction.des.LancerDesTest"/>
+        <method signature="LancerDesTest.testDCustom_NbrFaceException_strict_positif()[pri:0, instance:bstorm.akimt.demoTestNG.correction.des.LancerDesTest@1fb669c3]" name="testDCustom_NbrFaceException_strict_positif" class="bstorm.akimt.demoTestNG.correction.des.LancerDesTest"/>
+        <method signature="LancerDesTest.testDCustom_NbrLancerException()[pri:0, instance:bstorm.akimt.demoTestNG.correction.des.LancerDesTest@1fb669c3]" name="testDCustom_NbrLancerException" class="bstorm.akimt.demoTestNG.correction.des.LancerDesTest"/>
       </group> <!-- spring -->
-      <group name="demoProg">
-        <method signature="DemoProgTest.testProgParam(int, int)[pri:0, instance:bstorm.akimt.demoTestNG.demoProg.DemoProgTest@7daa0fbd]" name="testProgParam" class="bstorm.akimt.demoTestNG.demoProg.DemoProgTest"/>
-      </group> <!-- demoProg -->
+      <group name="division">
+        <method signature="CalculetteTest.divisionTest(int, int, int)[pri:0, instance:bstorm.akimt.demoTestNG.correction.calculette.CalculetteTest@1339e7aa]" name="divisionTest" class="bstorm.akimt.demoTestNG.correction.calculette.CalculetteTest"/>
+        <method signature="CalculetteTest.divisionTestException()[pri:0, instance:bstorm.akimt.demoTestNG.correction.calculette.CalculetteTest@1339e7aa]" name="divisionTestException" class="bstorm.akimt.demoTestNG.correction.calculette.CalculetteTest"/>
+      </group> <!-- division -->
+      <group name="face">
+        <method signature="LancerDesTest.testDCustom_NbrFaceException_pair()[pri:0, instance:bstorm.akimt.demoTestNG.correction.des.LancerDesTest@1fb669c3]" name="testDCustom_NbrFaceException_pair" class="bstorm.akimt.demoTestNG.correction.des.LancerDesTest"/>
+        <method signature="LancerDesTest.testDCustom_NbrFaceException_strict_positif()[pri:0, instance:bstorm.akimt.demoTestNG.correction.des.LancerDesTest@1fb669c3]" name="testDCustom_NbrFaceException_strict_positif" class="bstorm.akimt.demoTestNG.correction.des.LancerDesTest"/>
+      </group> <!-- face -->
       <group name="bonus">
-        <method signature="LancerDesTest.testDCustom_BonusException_intervalle_inf()[pri:0, instance:bstorm.akimt.demoTestNG.correction.des.LancerDesTest@432038ec]" name="testDCustom_BonusException_intervalle_inf" class="bstorm.akimt.demoTestNG.correction.des.LancerDesTest"/>
-        <method signature="LancerDesTest.testDCustom_BonusException_intervalle_sup()[pri:0, instance:bstorm.akimt.demoTestNG.correction.des.LancerDesTest@432038ec]" name="testDCustom_BonusException_intervalle_sup" class="bstorm.akimt.demoTestNG.correction.des.LancerDesTest"/>
+        <method signature="LancerDesTest.testDCustom_BonusException_intervalle_inf()[pri:0, instance:bstorm.akimt.demoTestNG.correction.des.LancerDesTest@1fb669c3]" name="testDCustom_BonusException_intervalle_inf" class="bstorm.akimt.demoTestNG.correction.des.LancerDesTest"/>
+        <method signature="LancerDesTest.testDCustom_BonusException_intervalle_sup()[pri:0, instance:bstorm.akimt.demoTestNG.correction.des.LancerDesTest@1fb669c3]" name="testDCustom_BonusException_intervalle_sup" class="bstorm.akimt.demoTestNG.correction.des.LancerDesTest"/>
       </group> <!-- bonus -->
       <group name="DCustom">
-        <method signature="LancerDesTest.testDCustom_BonusException_intervalle_inf()[pri:0, instance:bstorm.akimt.demoTestNG.correction.des.LancerDesTest@432038ec]" name="testDCustom_BonusException_intervalle_inf" class="bstorm.akimt.demoTestNG.correction.des.LancerDesTest"/>
-        <method signature="LancerDesTest.testDCustom_BonusException_intervalle_sup()[pri:0, instance:bstorm.akimt.demoTestNG.correction.des.LancerDesTest@432038ec]" name="testDCustom_BonusException_intervalle_sup" class="bstorm.akimt.demoTestNG.correction.des.LancerDesTest"/>
+        <method signature="LancerDesTest.testDCustom_BonusException_intervalle_inf()[pri:0, instance:bstorm.akimt.demoTestNG.correction.des.LancerDesTest@1fb669c3]" name="testDCustom_BonusException_intervalle_inf" class="bstorm.akimt.demoTestNG.correction.des.LancerDesTest"/>
+        <method signature="LancerDesTest.testDCustom_BonusException_intervalle_sup()[pri:0, instance:bstorm.akimt.demoTestNG.correction.des.LancerDesTest@1fb669c3]" name="testDCustom_BonusException_intervalle_sup" class="bstorm.akimt.demoTestNG.correction.des.LancerDesTest"/>
+        <method signature="LancerDesTest.testDCustom_NbrFaceException_pair()[pri:0, instance:bstorm.akimt.demoTestNG.correction.des.LancerDesTest@1fb669c3]" name="testDCustom_NbrFaceException_pair" class="bstorm.akimt.demoTestNG.correction.des.LancerDesTest"/>
+        <method signature="LancerDesTest.testDCustom_NbrFaceException_strict_positif()[pri:0, instance:bstorm.akimt.demoTestNG.correction.des.LancerDesTest@1fb669c3]" name="testDCustom_NbrFaceException_strict_positif" class="bstorm.akimt.demoTestNG.correction.des.LancerDesTest"/>
+        <method signature="LancerDesTest.testDCustom_NbrLancerException()[pri:0, instance:bstorm.akimt.demoTestNG.correction.des.LancerDesTest@1fb669c3]" name="testDCustom_NbrLancerException" class="bstorm.akimt.demoTestNG.correction.des.LancerDesTest"/>
       </group> <!-- DCustom -->
+      <group name="calculette">
+        <method signature="CalculetteTest.additionTest(int, int, int)[pri:0, instance:bstorm.akimt.demoTestNG.correction.calculette.CalculetteTest@1339e7aa]" name="additionTest" class="bstorm.akimt.demoTestNG.correction.calculette.CalculetteTest"/>
+        <method signature="CalculetteTest.divisionTest(int, int, int)[pri:0, instance:bstorm.akimt.demoTestNG.correction.calculette.CalculetteTest@1339e7aa]" name="divisionTest" class="bstorm.akimt.demoTestNG.correction.calculette.CalculetteTest"/>
+        <method signature="CalculetteTest.divisionTestException()[pri:0, instance:bstorm.akimt.demoTestNG.correction.calculette.CalculetteTest@1339e7aa]" name="divisionTestException" class="bstorm.akimt.demoTestNG.correction.calculette.CalculetteTest"/>
+        <method signature="CalculetteTest.multiplicationTest(int, int, int)[pri:0, instance:bstorm.akimt.demoTestNG.correction.calculette.CalculetteTest@1339e7aa]" name="multiplicationTest" class="bstorm.akimt.demoTestNG.correction.calculette.CalculetteTest"/>
+        <method signature="CalculetteTest.operationTestException()[pri:0, instance:bstorm.akimt.demoTestNG.correction.calculette.CalculetteTest@1339e7aa]" name="operationTestException" class="bstorm.akimt.demoTestNG.correction.calculette.CalculetteTest"/>
+        <method signature="CalculetteTest.soustractionTest(int, int, int)[pri:0, instance:bstorm.akimt.demoTestNG.correction.calculette.CalculetteTest@1339e7aa]" name="soustractionTest" class="bstorm.akimt.demoTestNG.correction.calculette.CalculetteTest"/>
+        <method signature="CalculetteTest.operationTest(int, int, char, int)[pri:0, instance:bstorm.akimt.demoTestNG.correction.calculette.CalculetteTest@1339e7aa]" name="operationTest" class="bstorm.akimt.demoTestNG.correction.calculette.CalculetteTest"/>
+      </group> <!-- calculette -->
+      <group name="multiplication">
+        <method signature="CalculetteTest.multiplicationTest(int, int, int)[pri:0, instance:bstorm.akimt.demoTestNG.correction.calculette.CalculetteTest@1339e7aa]" name="multiplicationTest" class="bstorm.akimt.demoTestNG.correction.calculette.CalculetteTest"/>
+      </group> <!-- multiplication -->
+      <group name="soustraction">
+        <method signature="CalculetteTest.soustractionTest(int, int, int)[pri:0, instance:bstorm.akimt.demoTestNG.correction.calculette.CalculetteTest@1339e7aa]" name="soustractionTest" class="bstorm.akimt.demoTestNG.correction.calculette.CalculetteTest"/>
+      </group> <!-- soustraction -->
+      <group name="operation">
+        <method signature="CalculetteTest.operationTestException()[pri:0, instance:bstorm.akimt.demoTestNG.correction.calculette.CalculetteTest@1339e7aa]" name="operationTestException" class="bstorm.akimt.demoTestNG.correction.calculette.CalculetteTest"/>
+        <method signature="CalculetteTest.operationTest(int, int, char, int)[pri:0, instance:bstorm.akimt.demoTestNG.correction.calculette.CalculetteTest@1339e7aa]" name="operationTest" class="bstorm.akimt.demoTestNG.correction.calculette.CalculetteTest"/>
+      </group> <!-- operation -->
+      <group name="nbrLancer">
+        <method signature="LancerDesTest.testDCustom_NbrLancerException()[pri:0, instance:bstorm.akimt.demoTestNG.correction.des.LancerDesTest@1fb669c3]" name="testDCustom_NbrLancerException" class="bstorm.akimt.demoTestNG.correction.des.LancerDesTest"/>
+      </group> <!-- nbrLancer -->
+      <group name="addition">
+        <method signature="CalculetteTest.additionTest(int, int, int)[pri:0, instance:bstorm.akimt.demoTestNG.correction.calculette.CalculetteTest@1339e7aa]" name="additionTest" class="bstorm.akimt.demoTestNG.correction.calculette.CalculetteTest"/>
+      </group> <!-- addition -->
     </groups>
-    <test started-at="2020-12-02T16:28:13 CET" name="desTest" finished-at="2020-12-02T16:28:16 CET" duration-ms="3097">
-      <class name="bstorm.akimt.demoTestNG.correction.des.LancerDesTest">
-        <test-method is-config="true" signature="springTestContextBeforeTestClass()[pri:0, instance:bstorm.akimt.demoTestNG.correction.des.LancerDesTest@432038ec]" started-at="2020-12-02T16:28:13 CET" name="springTestContextBeforeTestClass" finished-at="2020-12-02T16:28:13 CET" duration-ms="62" status="PASS">
+    <test started-at="2020-12-02T16:56:51 CET" name="correction test" finished-at="2020-12-02T16:56:55 CET" duration-ms="3466">
+      <class name="bstorm.akimt.demoTestNG.correction.calculette.CalculetteTest">
+        <test-method is-config="true" signature="springTestContextBeforeTestClass()[pri:0, instance:bstorm.akimt.demoTestNG.correction.calculette.CalculetteTest@1339e7aa]" started-at="2020-12-02T16:56:52 CET" name="springTestContextBeforeTestClass" finished-at="2020-12-02T16:56:52 CET" duration-ms="42" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- springTestContextBeforeTestClass -->
-        <test-method is-config="true" signature="springTestContextPrepareTestInstance()[pri:0, instance:bstorm.akimt.demoTestNG.correction.des.LancerDesTest@432038ec]" started-at="2020-12-02T16:28:13 CET" name="springTestContextPrepareTestInstance" finished-at="2020-12-02T16:28:16 CET" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" duration-ms="2895" status="PASS">
+        <test-method is-config="true" signature="springTestContextPrepareTestInstance()[pri:0, instance:bstorm.akimt.demoTestNG.correction.calculette.CalculetteTest@1339e7aa]" started-at="2020-12-02T16:56:52 CET" name="springTestContextPrepareTestInstance" finished-at="2020-12-02T16:56:55 CET" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" duration-ms="3095" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- springTestContextPrepareTestInstance -->
-        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:bstorm.akimt.demoTestNG.correction.des.LancerDesTest@432038ec]" started-at="2020-12-02T16:28:16 CET" name="springTestContextBeforeTestMethod" finished-at="2020-12-02T16:28:16 CET" duration-ms="5" status="PASS">
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:bstorm.akimt.demoTestNG.correction.calculette.CalculetteTest@1339e7aa]" started-at="2020-12-02T16:56:55 CET" name="springTestContextBeforeTestMethod" finished-at="2020-12-02T16:56:55 CET" duration-ms="8" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void bstorm.akimt.demoTestNG.correction.calculette.CalculetteTest.additionTest(int,int,int)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method signature="additionTest(int, int, int)[pri:0, instance:bstorm.akimt.demoTestNG.correction.calculette.CalculetteTest@1339e7aa]" started-at="2020-12-02T16:56:55 CET" name="additionTest" data-provider="additionData" finished-at="2020-12-02T16:56:55 CET" duration-ms="18" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- additionTest -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:bstorm.akimt.demoTestNG.correction.calculette.CalculetteTest@1339e7aa]" started-at="2020-12-02T16:56:55 CET" name="springTestContextAfterTestMethod" finished-at="2020-12-02T16:56:55 CET" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void bstorm.akimt.demoTestNG.correction.calculette.CalculetteTest.additionTest(int,int,int)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:bstorm.akimt.demoTestNG.correction.calculette.CalculetteTest@1339e7aa]" started-at="2020-12-02T16:56:55 CET" name="springTestContextBeforeTestMethod" finished-at="2020-12-02T16:56:55 CET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void bstorm.akimt.demoTestNG.correction.calculette.CalculetteTest.additionTest(int,int,int)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method signature="additionTest(int, int, int)[pri:0, instance:bstorm.akimt.demoTestNG.correction.calculette.CalculetteTest@1339e7aa]" started-at="2020-12-02T16:56:55 CET" name="additionTest" data-provider="additionData" finished-at="2020-12-02T16:56:55 CET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- additionTest -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:bstorm.akimt.demoTestNG.correction.calculette.CalculetteTest@1339e7aa]" started-at="2020-12-02T16:56:55 CET" name="springTestContextAfterTestMethod" finished-at="2020-12-02T16:56:55 CET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void bstorm.akimt.demoTestNG.correction.calculette.CalculetteTest.additionTest(int,int,int)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:bstorm.akimt.demoTestNG.correction.calculette.CalculetteTest@1339e7aa]" started-at="2020-12-02T16:56:55 CET" name="springTestContextBeforeTestMethod" finished-at="2020-12-02T16:56:55 CET" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void bstorm.akimt.demoTestNG.correction.calculette.CalculetteTest.additionTest(int,int,int)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method signature="additionTest(int, int, int)[pri:0, instance:bstorm.akimt.demoTestNG.correction.calculette.CalculetteTest@1339e7aa]" started-at="2020-12-02T16:56:55 CET" name="additionTest" data-provider="additionData" finished-at="2020-12-02T16:56:55 CET" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- additionTest -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:bstorm.akimt.demoTestNG.correction.calculette.CalculetteTest@1339e7aa]" started-at="2020-12-02T16:56:55 CET" name="springTestContextAfterTestMethod" finished-at="2020-12-02T16:56:55 CET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void bstorm.akimt.demoTestNG.correction.calculette.CalculetteTest.additionTest(int,int,int)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:bstorm.akimt.demoTestNG.correction.calculette.CalculetteTest@1339e7aa]" started-at="2020-12-02T16:56:55 CET" name="springTestContextBeforeTestMethod" finished-at="2020-12-02T16:56:55 CET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void bstorm.akimt.demoTestNG.correction.calculette.CalculetteTest.additionTest(int,int,int)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method signature="additionTest(int, int, int)[pri:0, instance:bstorm.akimt.demoTestNG.correction.calculette.CalculetteTest@1339e7aa]" started-at="2020-12-02T16:56:55 CET" name="additionTest" data-provider="additionData" finished-at="2020-12-02T16:56:55 CET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- additionTest -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:bstorm.akimt.demoTestNG.correction.calculette.CalculetteTest@1339e7aa]" started-at="2020-12-02T16:56:55 CET" name="springTestContextBeforeTestMethod" finished-at="2020-12-02T16:56:55 CET" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void bstorm.akimt.demoTestNG.correction.calculette.CalculetteTest.additionTest(int,int,int)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:bstorm.akimt.demoTestNG.correction.calculette.CalculetteTest@1339e7aa]" started-at="2020-12-02T16:56:55 CET" name="springTestContextAfterTestMethod" finished-at="2020-12-02T16:56:55 CET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void bstorm.akimt.demoTestNG.correction.calculette.CalculetteTest.additionTest(int,int,int)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method signature="additionTest(int, int, int)[pri:0, instance:bstorm.akimt.demoTestNG.correction.calculette.CalculetteTest@1339e7aa]" started-at="2020-12-02T16:56:55 CET" name="additionTest" data-provider="additionData" finished-at="2020-12-02T16:56:55 CET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2147483647]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-2147483648]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- additionTest -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:bstorm.akimt.demoTestNG.correction.calculette.CalculetteTest@1339e7aa]" started-at="2020-12-02T16:56:55 CET" name="springTestContextAfterTestMethod" finished-at="2020-12-02T16:56:55 CET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void bstorm.akimt.demoTestNG.correction.calculette.CalculetteTest.additionTest(int,int,int)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:bstorm.akimt.demoTestNG.correction.calculette.CalculetteTest@1339e7aa]" started-at="2020-12-02T16:56:55 CET" name="springTestContextBeforeTestMethod" finished-at="2020-12-02T16:56:55 CET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void bstorm.akimt.demoTestNG.correction.calculette.CalculetteTest.additionTest(int,int,int)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method signature="additionTest(int, int, int)[pri:0, instance:bstorm.akimt.demoTestNG.correction.calculette.CalculetteTest@1339e7aa]" started-at="2020-12-02T16:56:55 CET" name="additionTest" data-provider="additionData" finished-at="2020-12-02T16:56:55 CET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-2147483648]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2147483647]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- additionTest -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:bstorm.akimt.demoTestNG.correction.calculette.CalculetteTest@1339e7aa]" started-at="2020-12-02T16:56:55 CET" name="springTestContextAfterTestMethod" finished-at="2020-12-02T16:56:55 CET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void bstorm.akimt.demoTestNG.correction.calculette.CalculetteTest.additionTest(int,int,int)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:bstorm.akimt.demoTestNG.correction.calculette.CalculetteTest@1339e7aa]" started-at="2020-12-02T16:56:55 CET" name="springTestContextBeforeTestMethod" finished-at="2020-12-02T16:56:55 CET" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void bstorm.akimt.demoTestNG.correction.calculette.CalculetteTest.divisionTest(int,int,int)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method signature="divisionTest(int, int, int)[pri:0, instance:bstorm.akimt.demoTestNG.correction.calculette.CalculetteTest@1339e7aa]" started-at="2020-12-02T16:56:55 CET" name="divisionTest" data-provider="divisionData" finished-at="2020-12-02T16:56:55 CET" duration-ms="2" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.fail(Assert.java:106)
+at bstorm.akimt.demoTestNG.correction.calculette.CalculetteTest.divisionTest(CalculetteTest.java:33)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.MethodInvocationHelper$1.runTestMethod(MethodInvocationHelper.java:238)
+at org.springframework.test.context.testng.AbstractTestNGSpringContextTests.run(AbstractTestNGSpringContextTests.java:181)
+at org.testng.internal.MethodInvocationHelper.invokeHookable(MethodInvocationHelper.java:252)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:595)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at bstorm.akimt.demoTestNG.correction.prog.ExoProg.main(ExoProg.java:38)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- divisionTest -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:bstorm.akimt.demoTestNG.correction.calculette.CalculetteTest@1339e7aa]" started-at="2020-12-02T16:56:55 CET" name="springTestContextAfterTestMethod" finished-at="2020-12-02T16:56:55 CET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void bstorm.akimt.demoTestNG.correction.calculette.CalculetteTest.divisionTest(int,int,int)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:bstorm.akimt.demoTestNG.correction.calculette.CalculetteTest@1339e7aa]" started-at="2020-12-02T16:56:55 CET" name="springTestContextBeforeTestMethod" finished-at="2020-12-02T16:56:55 CET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void bstorm.akimt.demoTestNG.correction.calculette.CalculetteTest.divisionTest(int,int,int)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method signature="divisionTest(int, int, int)[pri:0, instance:bstorm.akimt.demoTestNG.correction.calculette.CalculetteTest@1339e7aa]" started-at="2020-12-02T16:56:55 CET" name="divisionTest" data-provider="divisionData" finished-at="2020-12-02T16:56:55 CET" duration-ms="0" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-1]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.fail(Assert.java:106)
+at bstorm.akimt.demoTestNG.correction.calculette.CalculetteTest.divisionTest(CalculetteTest.java:33)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.MethodInvocationHelper$1.runTestMethod(MethodInvocationHelper.java:238)
+at org.springframework.test.context.testng.AbstractTestNGSpringContextTests.run(AbstractTestNGSpringContextTests.java:181)
+at org.testng.internal.MethodInvocationHelper.invokeHookable(MethodInvocationHelper.java:252)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:595)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at bstorm.akimt.demoTestNG.correction.prog.ExoProg.main(ExoProg.java:38)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- divisionTest -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:bstorm.akimt.demoTestNG.correction.calculette.CalculetteTest@1339e7aa]" started-at="2020-12-02T16:56:55 CET" name="springTestContextAfterTestMethod" finished-at="2020-12-02T16:56:55 CET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void bstorm.akimt.demoTestNG.correction.calculette.CalculetteTest.divisionTest(int,int,int)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:bstorm.akimt.demoTestNG.correction.calculette.CalculetteTest@1339e7aa]" started-at="2020-12-02T16:56:55 CET" name="springTestContextBeforeTestMethod" finished-at="2020-12-02T16:56:55 CET" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void bstorm.akimt.demoTestNG.correction.calculette.CalculetteTest.divisionTest(int,int,int)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method signature="divisionTest(int, int, int)[pri:0, instance:bstorm.akimt.demoTestNG.correction.calculette.CalculetteTest@1339e7aa]" started-at="2020-12-02T16:56:55 CET" name="divisionTest" data-provider="divisionData" finished-at="2020-12-02T16:56:55 CET" duration-ms="1" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-1]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.fail(Assert.java:106)
+at bstorm.akimt.demoTestNG.correction.calculette.CalculetteTest.divisionTest(CalculetteTest.java:33)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.MethodInvocationHelper$1.runTestMethod(MethodInvocationHelper.java:238)
+at org.springframework.test.context.testng.AbstractTestNGSpringContextTests.run(AbstractTestNGSpringContextTests.java:181)
+at org.testng.internal.MethodInvocationHelper.invokeHookable(MethodInvocationHelper.java:252)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:595)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at bstorm.akimt.demoTestNG.correction.prog.ExoProg.main(ExoProg.java:38)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- divisionTest -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:bstorm.akimt.demoTestNG.correction.calculette.CalculetteTest@1339e7aa]" started-at="2020-12-02T16:56:55 CET" name="springTestContextAfterTestMethod" finished-at="2020-12-02T16:56:55 CET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void bstorm.akimt.demoTestNG.correction.calculette.CalculetteTest.divisionTest(int,int,int)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:bstorm.akimt.demoTestNG.correction.calculette.CalculetteTest@1339e7aa]" started-at="2020-12-02T16:56:55 CET" name="springTestContextBeforeTestMethod" finished-at="2020-12-02T16:56:55 CET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void bstorm.akimt.demoTestNG.correction.calculette.CalculetteTest.divisionTest(int,int,int)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method signature="divisionTest(int, int, int)[pri:0, instance:bstorm.akimt.demoTestNG.correction.calculette.CalculetteTest@1339e7aa]" started-at="2020-12-02T16:56:55 CET" name="divisionTest" data-provider="divisionData" finished-at="2020-12-02T16:56:55 CET" duration-ms="0" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.fail(Assert.java:106)
+at bstorm.akimt.demoTestNG.correction.calculette.CalculetteTest.divisionTest(CalculetteTest.java:33)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.MethodInvocationHelper$1.runTestMethod(MethodInvocationHelper.java:238)
+at org.springframework.test.context.testng.AbstractTestNGSpringContextTests.run(AbstractTestNGSpringContextTests.java:181)
+at org.testng.internal.MethodInvocationHelper.invokeHookable(MethodInvocationHelper.java:252)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:595)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at bstorm.akimt.demoTestNG.correction.prog.ExoProg.main(ExoProg.java:38)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- divisionTest -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:bstorm.akimt.demoTestNG.correction.calculette.CalculetteTest@1339e7aa]" started-at="2020-12-02T16:56:55 CET" name="springTestContextAfterTestMethod" finished-at="2020-12-02T16:56:55 CET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void bstorm.akimt.demoTestNG.correction.calculette.CalculetteTest.divisionTest(int,int,int)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:bstorm.akimt.demoTestNG.correction.calculette.CalculetteTest@1339e7aa]" started-at="2020-12-02T16:56:55 CET" name="springTestContextBeforeTestMethod" finished-at="2020-12-02T16:56:55 CET" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void bstorm.akimt.demoTestNG.correction.calculette.CalculetteTest.divisionTestException()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method signature="divisionTestException()[pri:0, instance:bstorm.akimt.demoTestNG.correction.calculette.CalculetteTest@1339e7aa]" started-at="2020-12-02T16:56:55 CET" name="divisionTestException" finished-at="2020-12-02T16:56:55 CET" duration-ms="1" status="PASS">
+          <exception class="java.lang.ArithmeticException">
+            <message>
+              <![CDATA[/ by zero]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.ArithmeticException: / by zero
+at bstorm.akimt.demoTestNG.correction.calculette.CalculetteServiceImpl.division(CalculetteServiceImpl.java:20)
+at bstorm.akimt.demoTestNG.correction.calculette.CalculetteTest.divisionTestException(CalculetteTest.java:39)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.MethodInvocationHelper$1.runTestMethod(MethodInvocationHelper.java:238)
+at org.springframework.test.context.testng.AbstractTestNGSpringContextTests.run(AbstractTestNGSpringContextTests.java:181)
+at org.testng.internal.MethodInvocationHelper.invokeHookable(MethodInvocationHelper.java:252)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:595)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at bstorm.akimt.demoTestNG.correction.prog.ExoProg.main(ExoProg.java:38)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.ArithmeticException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- divisionTestException -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:bstorm.akimt.demoTestNG.correction.calculette.CalculetteTest@1339e7aa]" started-at="2020-12-02T16:56:55 CET" name="springTestContextAfterTestMethod" finished-at="2020-12-02T16:56:55 CET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void bstorm.akimt.demoTestNG.correction.calculette.CalculetteTest.divisionTestException()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:bstorm.akimt.demoTestNG.correction.calculette.CalculetteTest@1339e7aa]" started-at="2020-12-02T16:56:55 CET" name="springTestContextBeforeTestMethod" finished-at="2020-12-02T16:56:55 CET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void bstorm.akimt.demoTestNG.correction.calculette.CalculetteTest.multiplicationTest(int,int,int)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method signature="multiplicationTest(int, int, int)[pri:0, instance:bstorm.akimt.demoTestNG.correction.calculette.CalculetteTest@1339e7aa]" started-at="2020-12-02T16:56:55 CET" name="multiplicationTest" data-provider="multiplucationData" finished-at="2020-12-02T16:56:55 CET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- multiplicationTest -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:bstorm.akimt.demoTestNG.correction.calculette.CalculetteTest@1339e7aa]" started-at="2020-12-02T16:56:55 CET" name="springTestContextAfterTestMethod" finished-at="2020-12-02T16:56:55 CET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void bstorm.akimt.demoTestNG.correction.calculette.CalculetteTest.multiplicationTest(int,int,int)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:bstorm.akimt.demoTestNG.correction.calculette.CalculetteTest@1339e7aa]" started-at="2020-12-02T16:56:55 CET" name="springTestContextBeforeTestMethod" finished-at="2020-12-02T16:56:55 CET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void bstorm.akimt.demoTestNG.correction.calculette.CalculetteTest.multiplicationTest(int,int,int)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method signature="multiplicationTest(int, int, int)[pri:0, instance:bstorm.akimt.demoTestNG.correction.calculette.CalculetteTest@1339e7aa]" started-at="2020-12-02T16:56:55 CET" name="multiplicationTest" data-provider="multiplucationData" finished-at="2020-12-02T16:56:55 CET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- multiplicationTest -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:bstorm.akimt.demoTestNG.correction.calculette.CalculetteTest@1339e7aa]" started-at="2020-12-02T16:56:55 CET" name="springTestContextAfterTestMethod" finished-at="2020-12-02T16:56:55 CET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void bstorm.akimt.demoTestNG.correction.calculette.CalculetteTest.multiplicationTest(int,int,int)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method signature="multiplicationTest(int, int, int)[pri:0, instance:bstorm.akimt.demoTestNG.correction.calculette.CalculetteTest@1339e7aa]" started-at="2020-12-02T16:56:55 CET" name="multiplicationTest" data-provider="multiplucationData" finished-at="2020-12-02T16:56:55 CET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- multiplicationTest -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:bstorm.akimt.demoTestNG.correction.calculette.CalculetteTest@1339e7aa]" started-at="2020-12-02T16:56:55 CET" name="springTestContextBeforeTestMethod" finished-at="2020-12-02T16:56:55 CET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void bstorm.akimt.demoTestNG.correction.calculette.CalculetteTest.multiplicationTest(int,int,int)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:bstorm.akimt.demoTestNG.correction.calculette.CalculetteTest@1339e7aa]" started-at="2020-12-02T16:56:55 CET" name="springTestContextAfterTestMethod" finished-at="2020-12-02T16:56:55 CET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void bstorm.akimt.demoTestNG.correction.calculette.CalculetteTest.multiplicationTest(int,int,int)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:bstorm.akimt.demoTestNG.correction.calculette.CalculetteTest@1339e7aa]" started-at="2020-12-02T16:56:55 CET" name="springTestContextBeforeTestMethod" finished-at="2020-12-02T16:56:55 CET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void bstorm.akimt.demoTestNG.correction.calculette.CalculetteTest.multiplicationTest(int,int,int)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method signature="multiplicationTest(int, int, int)[pri:0, instance:bstorm.akimt.demoTestNG.correction.calculette.CalculetteTest@1339e7aa]" started-at="2020-12-02T16:56:55 CET" name="multiplicationTest" data-provider="multiplucationData" finished-at="2020-12-02T16:56:55 CET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- multiplicationTest -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:bstorm.akimt.demoTestNG.correction.calculette.CalculetteTest@1339e7aa]" started-at="2020-12-02T16:56:55 CET" name="springTestContextAfterTestMethod" finished-at="2020-12-02T16:56:55 CET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void bstorm.akimt.demoTestNG.correction.calculette.CalculetteTest.multiplicationTest(int,int,int)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:bstorm.akimt.demoTestNG.correction.calculette.CalculetteTest@1339e7aa]" started-at="2020-12-02T16:56:55 CET" name="springTestContextBeforeTestMethod" finished-at="2020-12-02T16:56:55 CET" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void bstorm.akimt.demoTestNG.correction.calculette.CalculetteTest.multiplicationTest(int,int,int)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method signature="multiplicationTest(int, int, int)[pri:0, instance:bstorm.akimt.demoTestNG.correction.calculette.CalculetteTest@1339e7aa]" started-at="2020-12-02T16:56:55 CET" name="multiplicationTest" data-provider="multiplucationData" finished-at="2020-12-02T16:56:55 CET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- multiplicationTest -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:bstorm.akimt.demoTestNG.correction.calculette.CalculetteTest@1339e7aa]" started-at="2020-12-02T16:56:55 CET" name="springTestContextAfterTestMethod" finished-at="2020-12-02T16:56:55 CET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void bstorm.akimt.demoTestNG.correction.calculette.CalculetteTest.multiplicationTest(int,int,int)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:bstorm.akimt.demoTestNG.correction.calculette.CalculetteTest@1339e7aa]" started-at="2020-12-02T16:56:55 CET" name="springTestContextBeforeTestMethod" finished-at="2020-12-02T16:56:55 CET" duration-ms="6" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void bstorm.akimt.demoTestNG.correction.calculette.CalculetteTest.multiplicationTest(int,int,int)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method signature="multiplicationTest(int, int, int)[pri:0, instance:bstorm.akimt.demoTestNG.correction.calculette.CalculetteTest@1339e7aa]" started-at="2020-12-02T16:56:55 CET" name="multiplicationTest" data-provider="multiplucationData" finished-at="2020-12-02T16:56:55 CET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2147483647]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- multiplicationTest -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:bstorm.akimt.demoTestNG.correction.calculette.CalculetteTest@1339e7aa]" started-at="2020-12-02T16:56:55 CET" name="springTestContextAfterTestMethod" finished-at="2020-12-02T16:56:55 CET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void bstorm.akimt.demoTestNG.correction.calculette.CalculetteTest.multiplicationTest(int,int,int)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method signature="multiplicationTest(int, int, int)[pri:0, instance:bstorm.akimt.demoTestNG.correction.calculette.CalculetteTest@1339e7aa]" started-at="2020-12-02T16:56:55 CET" name="multiplicationTest" data-provider="multiplucationData" finished-at="2020-12-02T16:56:55 CET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-2147483648]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- multiplicationTest -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:bstorm.akimt.demoTestNG.correction.calculette.CalculetteTest@1339e7aa]" started-at="2020-12-02T16:56:55 CET" name="springTestContextBeforeTestMethod" finished-at="2020-12-02T16:56:55 CET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void bstorm.akimt.demoTestNG.correction.calculette.CalculetteTest.multiplicationTest(int,int,int)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:bstorm.akimt.demoTestNG.correction.calculette.CalculetteTest@1339e7aa]" started-at="2020-12-02T16:56:55 CET" name="springTestContextAfterTestMethod" finished-at="2020-12-02T16:56:55 CET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void bstorm.akimt.demoTestNG.correction.calculette.CalculetteTest.multiplicationTest(int,int,int)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:bstorm.akimt.demoTestNG.correction.calculette.CalculetteTest@1339e7aa]" started-at="2020-12-02T16:56:55 CET" name="springTestContextBeforeTestMethod" finished-at="2020-12-02T16:56:55 CET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void bstorm.akimt.demoTestNG.correction.calculette.CalculetteTest.soustractionTest(int,int,int)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method signature="soustractionTest(int, int, int)[pri:0, instance:bstorm.akimt.demoTestNG.correction.calculette.CalculetteTest@1339e7aa]" started-at="2020-12-02T16:56:55 CET" name="soustractionTest" data-provider="soustractionData" finished-at="2020-12-02T16:56:55 CET" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- soustractionTest -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:bstorm.akimt.demoTestNG.correction.calculette.CalculetteTest@1339e7aa]" started-at="2020-12-02T16:56:55 CET" name="springTestContextAfterTestMethod" finished-at="2020-12-02T16:56:55 CET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void bstorm.akimt.demoTestNG.correction.calculette.CalculetteTest.soustractionTest(int,int,int)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:bstorm.akimt.demoTestNG.correction.calculette.CalculetteTest@1339e7aa]" started-at="2020-12-02T16:56:55 CET" name="springTestContextBeforeTestMethod" finished-at="2020-12-02T16:56:55 CET" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void bstorm.akimt.demoTestNG.correction.calculette.CalculetteTest.soustractionTest(int,int,int)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method signature="soustractionTest(int, int, int)[pri:0, instance:bstorm.akimt.demoTestNG.correction.calculette.CalculetteTest@1339e7aa]" started-at="2020-12-02T16:56:55 CET" name="soustractionTest" data-provider="soustractionData" finished-at="2020-12-02T16:56:55 CET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- soustractionTest -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:bstorm.akimt.demoTestNG.correction.calculette.CalculetteTest@1339e7aa]" started-at="2020-12-02T16:56:55 CET" name="springTestContextAfterTestMethod" finished-at="2020-12-02T16:56:55 CET" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void bstorm.akimt.demoTestNG.correction.calculette.CalculetteTest.soustractionTest(int,int,int)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:bstorm.akimt.demoTestNG.correction.calculette.CalculetteTest@1339e7aa]" started-at="2020-12-02T16:56:55 CET" name="springTestContextBeforeTestMethod" finished-at="2020-12-02T16:56:55 CET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void bstorm.akimt.demoTestNG.correction.calculette.CalculetteTest.soustractionTest(int,int,int)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method signature="soustractionTest(int, int, int)[pri:0, instance:bstorm.akimt.demoTestNG.correction.calculette.CalculetteTest@1339e7aa]" started-at="2020-12-02T16:56:55 CET" name="soustractionTest" data-provider="soustractionData" finished-at="2020-12-02T16:56:55 CET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- soustractionTest -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:bstorm.akimt.demoTestNG.correction.calculette.CalculetteTest@1339e7aa]" started-at="2020-12-02T16:56:55 CET" name="springTestContextAfterTestMethod" finished-at="2020-12-02T16:56:55 CET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void bstorm.akimt.demoTestNG.correction.calculette.CalculetteTest.soustractionTest(int,int,int)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:bstorm.akimt.demoTestNG.correction.calculette.CalculetteTest@1339e7aa]" started-at="2020-12-02T16:56:55 CET" name="springTestContextBeforeTestMethod" finished-at="2020-12-02T16:56:55 CET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void bstorm.akimt.demoTestNG.correction.calculette.CalculetteTest.soustractionTest(int,int,int)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method signature="soustractionTest(int, int, int)[pri:0, instance:bstorm.akimt.demoTestNG.correction.calculette.CalculetteTest@1339e7aa]" started-at="2020-12-02T16:56:55 CET" name="soustractionTest" data-provider="soustractionData" finished-at="2020-12-02T16:56:55 CET" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- soustractionTest -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:bstorm.akimt.demoTestNG.correction.calculette.CalculetteTest@1339e7aa]" started-at="2020-12-02T16:56:55 CET" name="springTestContextAfterTestMethod" finished-at="2020-12-02T16:56:55 CET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void bstorm.akimt.demoTestNG.correction.calculette.CalculetteTest.soustractionTest(int,int,int)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:bstorm.akimt.demoTestNG.correction.calculette.CalculetteTest@1339e7aa]" started-at="2020-12-02T16:56:55 CET" name="springTestContextBeforeTestMethod" finished-at="2020-12-02T16:56:55 CET" duration-ms="6" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void bstorm.akimt.demoTestNG.correction.calculette.CalculetteTest.soustractionTest(int,int,int)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method signature="soustractionTest(int, int, int)[pri:0, instance:bstorm.akimt.demoTestNG.correction.calculette.CalculetteTest@1339e7aa]" started-at="2020-12-02T16:56:55 CET" name="soustractionTest" data-provider="soustractionData" finished-at="2020-12-02T16:56:55 CET" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2147483647]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-2147483648]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- soustractionTest -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:bstorm.akimt.demoTestNG.correction.calculette.CalculetteTest@1339e7aa]" started-at="2020-12-02T16:56:55 CET" name="springTestContextBeforeTestMethod" finished-at="2020-12-02T16:56:55 CET" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void bstorm.akimt.demoTestNG.correction.calculette.CalculetteTest.soustractionTest(int,int,int)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:bstorm.akimt.demoTestNG.correction.calculette.CalculetteTest@1339e7aa]" started-at="2020-12-02T16:56:55 CET" name="springTestContextAfterTestMethod" finished-at="2020-12-02T16:56:55 CET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void bstorm.akimt.demoTestNG.correction.calculette.CalculetteTest.soustractionTest(int,int,int)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method signature="soustractionTest(int, int, int)[pri:0, instance:bstorm.akimt.demoTestNG.correction.calculette.CalculetteTest@1339e7aa]" started-at="2020-12-02T16:56:55 CET" name="soustractionTest" data-provider="soustractionData" finished-at="2020-12-02T16:56:55 CET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-2147483648]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2147483647]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- soustractionTest -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:bstorm.akimt.demoTestNG.correction.calculette.CalculetteTest@1339e7aa]" started-at="2020-12-02T16:56:55 CET" name="springTestContextAfterTestMethod" finished-at="2020-12-02T16:56:55 CET" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void bstorm.akimt.demoTestNG.correction.calculette.CalculetteTest.soustractionTest(int,int,int)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:bstorm.akimt.demoTestNG.correction.calculette.CalculetteTest@1339e7aa]" started-at="2020-12-02T16:56:55 CET" name="springTestContextBeforeTestMethod" finished-at="2020-12-02T16:56:55 CET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void bstorm.akimt.demoTestNG.correction.calculette.CalculetteTest.operationTestException()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method signature="operationTestException()[pri:0, instance:bstorm.akimt.demoTestNG.correction.calculette.CalculetteTest@1339e7aa]" started-at="2020-12-02T16:56:55 CET" name="operationTestException" finished-at="2020-12-02T16:56:55 CET" depends-on-methods="bstorm.akimt.demoTestNG.correction.calculette.CalculetteTest.divisionTestException" duration-ms="0" status="PASS">
+          <exception class="java.lang.ArithmeticException">
+            <message>
+              <![CDATA[/ by zero]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.ArithmeticException: / by zero
+at bstorm.akimt.demoTestNG.correction.calculette.CalculetteServiceImpl.division(CalculetteServiceImpl.java:20)
+at bstorm.akimt.demoTestNG.correction.calculette.CalculetteServiceImpl.operation(CalculetteServiceImpl.java:36)
+at bstorm.akimt.demoTestNG.correction.calculette.CalculetteTest.operationTestException(CalculetteTest.java:58)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.MethodInvocationHelper$1.runTestMethod(MethodInvocationHelper.java:238)
+at org.springframework.test.context.testng.AbstractTestNGSpringContextTests.run(AbstractTestNGSpringContextTests.java:181)
+at org.testng.internal.MethodInvocationHelper.invokeHookable(MethodInvocationHelper.java:252)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:595)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at bstorm.akimt.demoTestNG.correction.prog.ExoProg.main(ExoProg.java:38)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.ArithmeticException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- operationTestException -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:bstorm.akimt.demoTestNG.correction.calculette.CalculetteTest@1339e7aa]" started-at="2020-12-02T16:56:55 CET" name="springTestContextAfterTestMethod" finished-at="2020-12-02T16:56:55 CET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void bstorm.akimt.demoTestNG.correction.calculette.CalculetteTest.operationTestException()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method signature="operationTest(int, int, char, int)[pri:0, instance:bstorm.akimt.demoTestNG.correction.calculette.CalculetteTest@1339e7aa]" started-at="2020-12-02T16:56:55 CET" name="operationTest" data-provider="operationData" depends-on-groups="division, multiplication, soustraction, addition" finished-at="2020-12-02T16:56:55 CET" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method CalculetteTest.operationTest(int, int, char, int)[pri:0, instance:bstorm.akimt.demoTestNG.correction.calculette.CalculetteTest@1339e7aa] depends on not successfully finished methods in group "division"]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method CalculetteTest.operationTest(int, int, char, int)[pri:0, instance:bstorm.akimt.demoTestNG.correction.calculette.CalculetteTest@1339e7aa] depends on not successfully finished methods in group "division"
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:102)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at bstorm.akimt.demoTestNG.correction.prog.ExoProg.main(ExoProg.java:38)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- operationTest -->
+        <test-method is-config="true" signature="springTestContextAfterTestClass()[pri:0, instance:bstorm.akimt.demoTestNG.correction.calculette.CalculetteTest@1339e7aa]" started-at="2020-12-02T16:56:55 CET" name="springTestContextAfterTestClass" finished-at="2020-12-02T16:56:55 CET" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestClass -->
+      </class> <!-- bstorm.akimt.demoTestNG.correction.calculette.CalculetteTest -->
+      <class name="bstorm.akimt.demoTestNG.correction.des.LancerDesTest">
+        <test-method is-config="true" signature="springTestContextBeforeTestClass()[pri:0, instance:bstorm.akimt.demoTestNG.correction.des.LancerDesTest@1fb669c3]" started-at="2020-12-02T16:56:55 CET" name="springTestContextBeforeTestClass" finished-at="2020-12-02T16:56:55 CET" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method is-config="true" signature="springTestContextPrepareTestInstance()[pri:0, instance:bstorm.akimt.demoTestNG.correction.des.LancerDesTest@1fb669c3]" started-at="2020-12-02T16:56:55 CET" name="springTestContextPrepareTestInstance" finished-at="2020-12-02T16:56:55 CET" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" duration-ms="22" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:bstorm.akimt.demoTestNG.correction.des.LancerDesTest@1fb669c3]" started-at="2020-12-02T16:56:55 CET" name="springTestContextBeforeTestMethod" finished-at="2020-12-02T16:56:55 CET" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -41,7 +1407,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- springTestContextBeforeTestMethod -->
-        <test-method signature="testDCustom_BonusException_intervalle_inf()[pri:0, instance:bstorm.akimt.demoTestNG.correction.des.LancerDesTest@432038ec]" started-at="2020-12-02T16:28:16 CET" name="testDCustom_BonusException_intervalle_inf" finished-at="2020-12-02T16:28:16 CET" duration-ms="10" status="PASS">
+        <test-method signature="testDCustom_BonusException_intervalle_inf()[pri:0, instance:bstorm.akimt.demoTestNG.correction.des.LancerDesTest@1fb669c3]" started-at="2020-12-02T16:56:55 CET" name="testDCustom_BonusException_intervalle_inf" finished-at="2020-12-02T16:56:55 CET" duration-ms="7" status="PASS">
           <exception class="bstorm.akimt.demoTestNG.correction.des.BonusException">
             <message>
               <![CDATA[Le bonus devrait être entre -20 et 20]]>
@@ -78,14 +1444,14 @@ at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
 at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
 at org.testng.TestNG.runSuites(TestNG.java:1069)
 at org.testng.TestNG.run(TestNG.java:1037)
-at bstorm.akimt.demoTestNG.demoProg.ProgTestLauncher.main(ProgTestLauncher.java:53)
+at bstorm.akimt.demoTestNG.correction.prog.ExoProg.main(ExoProg.java:38)
 ]]>
             </full-stacktrace>
           </exception> <!-- bstorm.akimt.demoTestNG.correction.des.BonusException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDCustom_BonusException_intervalle_inf -->
-        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:bstorm.akimt.demoTestNG.correction.des.LancerDesTest@432038ec]" started-at="2020-12-02T16:28:16 CET" name="springTestContextAfterTestMethod" finished-at="2020-12-02T16:28:16 CET" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:bstorm.akimt.demoTestNG.correction.des.LancerDesTest@1fb669c3]" started-at="2020-12-02T16:56:55 CET" name="springTestContextAfterTestMethod" finished-at="2020-12-02T16:56:55 CET" duration-ms="3" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -96,7 +1462,7 @@ at bstorm.akimt.demoTestNG.demoProg.ProgTestLauncher.main(ProgTestLauncher.java:
           <reporter-output>
           </reporter-output>
         </test-method> <!-- springTestContextAfterTestMethod -->
-        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:bstorm.akimt.demoTestNG.correction.des.LancerDesTest@432038ec]" started-at="2020-12-02T16:28:16 CET" name="springTestContextBeforeTestMethod" finished-at="2020-12-02T16:28:16 CET" duration-ms="3" status="PASS">
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:bstorm.akimt.demoTestNG.correction.des.LancerDesTest@1fb669c3]" started-at="2020-12-02T16:56:55 CET" name="springTestContextBeforeTestMethod" finished-at="2020-12-02T16:56:55 CET" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -107,7 +1473,7 @@ at bstorm.akimt.demoTestNG.demoProg.ProgTestLauncher.main(ProgTestLauncher.java:
           <reporter-output>
           </reporter-output>
         </test-method> <!-- springTestContextBeforeTestMethod -->
-        <test-method signature="testDCustom_BonusException_intervalle_sup()[pri:0, instance:bstorm.akimt.demoTestNG.correction.des.LancerDesTest@432038ec]" started-at="2020-12-02T16:28:16 CET" name="testDCustom_BonusException_intervalle_sup" finished-at="2020-12-02T16:28:16 CET" duration-ms="1" status="PASS">
+        <test-method signature="testDCustom_BonusException_intervalle_sup()[pri:0, instance:bstorm.akimt.demoTestNG.correction.des.LancerDesTest@1fb669c3]" started-at="2020-12-02T16:56:55 CET" name="testDCustom_BonusException_intervalle_sup" finished-at="2020-12-02T16:56:55 CET" duration-ms="0" status="PASS">
           <exception class="bstorm.akimt.demoTestNG.correction.des.BonusException">
             <message>
               <![CDATA[Le bonus devrait être entre -20 et 20]]>
@@ -144,14 +1510,14 @@ at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
 at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
 at org.testng.TestNG.runSuites(TestNG.java:1069)
 at org.testng.TestNG.run(TestNG.java:1037)
-at bstorm.akimt.demoTestNG.demoProg.ProgTestLauncher.main(ProgTestLauncher.java:53)
+at bstorm.akimt.demoTestNG.correction.prog.ExoProg.main(ExoProg.java:38)
 ]]>
             </full-stacktrace>
           </exception> <!-- bstorm.akimt.demoTestNG.correction.des.BonusException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDCustom_BonusException_intervalle_sup -->
-        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:bstorm.akimt.demoTestNG.correction.des.LancerDesTest@432038ec]" started-at="2020-12-02T16:28:16 CET" name="springTestContextAfterTestMethod" finished-at="2020-12-02T16:28:16 CET" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:bstorm.akimt.demoTestNG.correction.des.LancerDesTest@1fb669c3]" started-at="2020-12-02T16:56:55 CET" name="springTestContextAfterTestMethod" finished-at="2020-12-02T16:56:55 CET" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -162,29 +1528,209 @@ at bstorm.akimt.demoTestNG.demoProg.ProgTestLauncher.main(ProgTestLauncher.java:
           <reporter-output>
           </reporter-output>
         </test-method> <!-- springTestContextAfterTestMethod -->
-        <test-method is-config="true" signature="springTestContextAfterTestClass()[pri:0, instance:bstorm.akimt.demoTestNG.correction.des.LancerDesTest@432038ec]" started-at="2020-12-02T16:28:16 CET" name="springTestContextAfterTestClass" finished-at="2020-12-02T16:28:16 CET" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- springTestContextAfterTestClass -->
-      </class> <!-- bstorm.akimt.demoTestNG.correction.des.LancerDesTest -->
-      <class name="bstorm.akimt.demoTestNG.demoProg.DemoProgTest">
-        <test-method signature="testProgParam(int, int)[pri:0, instance:bstorm.akimt.demoTestNG.demoProg.DemoProgTest@7daa0fbd]" started-at="2020-12-02T16:28:16 CET" name="testProgParam" finished-at="2020-12-02T16:28:16 CET" duration-ms="4" status="PASS">
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:bstorm.akimt.demoTestNG.correction.des.LancerDesTest@1fb669c3]" started-at="2020-12-02T16:56:55 CET" name="springTestContextBeforeTestMethod" finished-at="2020-12-02T16:56:55 CET" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[2]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[3]]>
+                <![CDATA[public void bstorm.akimt.demoTestNG.correction.des.LancerDesTest.testDCustom_NbrFaceException_pair()]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testProgParam -->
-      </class> <!-- bstorm.akimt.demoTestNG.demoProg.DemoProgTest -->
-    </test> <!-- desTest -->
-  </suite> <!-- desSuite -->
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method signature="testDCustom_NbrFaceException_pair()[pri:0, instance:bstorm.akimt.demoTestNG.correction.des.LancerDesTest@1fb669c3]" started-at="2020-12-02T16:56:55 CET" name="testDCustom_NbrFaceException_pair" finished-at="2020-12-02T16:56:55 CET" duration-ms="8" status="PASS">
+          <exception class="bstorm.akimt.demoTestNG.correction.des.NbrFaceException">
+            <message>
+              <![CDATA[Le nombre de face devrait être positif et pair]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[bstorm.akimt.demoTestNG.correction.des.NbrFaceException: Le nombre de face devrait être positif et pair
+at bstorm.akimt.demoTestNG.correction.des.LancerDesImpl.DCustom(LancerDesImpl.java:34)
+at bstorm.akimt.demoTestNG.correction.des.LancerDesTest.testDCustom_NbrFaceException_pair(LancerDesTest.java:47)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.MethodInvocationHelper$1.runTestMethod(MethodInvocationHelper.java:238)
+at org.springframework.test.context.testng.AbstractTestNGSpringContextTests.run(AbstractTestNGSpringContextTests.java:181)
+at org.testng.internal.MethodInvocationHelper.invokeHookable(MethodInvocationHelper.java:252)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:595)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at bstorm.akimt.demoTestNG.correction.prog.ExoProg.main(ExoProg.java:38)
+]]>
+            </full-stacktrace>
+          </exception> <!-- bstorm.akimt.demoTestNG.correction.des.NbrFaceException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDCustom_NbrFaceException_pair -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:bstorm.akimt.demoTestNG.correction.des.LancerDesTest@1fb669c3]" started-at="2020-12-02T16:56:55 CET" name="springTestContextAfterTestMethod" finished-at="2020-12-02T16:56:55 CET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void bstorm.akimt.demoTestNG.correction.des.LancerDesTest.testDCustom_NbrFaceException_pair()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:bstorm.akimt.demoTestNG.correction.des.LancerDesTest@1fb669c3]" started-at="2020-12-02T16:56:55 CET" name="springTestContextBeforeTestMethod" finished-at="2020-12-02T16:56:55 CET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void bstorm.akimt.demoTestNG.correction.des.LancerDesTest.testDCustom_NbrFaceException_strict_positif()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method signature="testDCustom_NbrFaceException_strict_positif()[pri:0, instance:bstorm.akimt.demoTestNG.correction.des.LancerDesTest@1fb669c3]" started-at="2020-12-02T16:56:55 CET" name="testDCustom_NbrFaceException_strict_positif" finished-at="2020-12-02T16:56:55 CET" duration-ms="1" status="PASS">
+          <exception class="bstorm.akimt.demoTestNG.correction.des.NbrFaceException">
+            <message>
+              <![CDATA[Le nombre de face devrait être positif et pair]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[bstorm.akimt.demoTestNG.correction.des.NbrFaceException: Le nombre de face devrait être positif et pair
+at bstorm.akimt.demoTestNG.correction.des.LancerDesImpl.DCustom(LancerDesImpl.java:34)
+at bstorm.akimt.demoTestNG.correction.des.LancerDesTest.testDCustom_NbrFaceException_strict_positif(LancerDesTest.java:52)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.MethodInvocationHelper$1.runTestMethod(MethodInvocationHelper.java:238)
+at org.springframework.test.context.testng.AbstractTestNGSpringContextTests.run(AbstractTestNGSpringContextTests.java:181)
+at org.testng.internal.MethodInvocationHelper.invokeHookable(MethodInvocationHelper.java:252)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:595)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at bstorm.akimt.demoTestNG.correction.prog.ExoProg.main(ExoProg.java:38)
+]]>
+            </full-stacktrace>
+          </exception> <!-- bstorm.akimt.demoTestNG.correction.des.NbrFaceException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDCustom_NbrFaceException_strict_positif -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:bstorm.akimt.demoTestNG.correction.des.LancerDesTest@1fb669c3]" started-at="2020-12-02T16:56:55 CET" name="springTestContextAfterTestMethod" finished-at="2020-12-02T16:56:55 CET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void bstorm.akimt.demoTestNG.correction.des.LancerDesTest.testDCustom_NbrFaceException_strict_positif()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:bstorm.akimt.demoTestNG.correction.des.LancerDesTest@1fb669c3]" started-at="2020-12-02T16:56:55 CET" name="springTestContextBeforeTestMethod" finished-at="2020-12-02T16:56:55 CET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void bstorm.akimt.demoTestNG.correction.des.LancerDesTest.testDCustom_NbrLancerException()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:bstorm.akimt.demoTestNG.correction.des.LancerDesTest@1fb669c3]" started-at="2020-12-02T16:56:55 CET" name="springTestContextAfterTestMethod" finished-at="2020-12-02T16:56:55 CET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void bstorm.akimt.demoTestNG.correction.des.LancerDesTest.testDCustom_NbrLancerException()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method signature="testDCustom_NbrLancerException()[pri:0, instance:bstorm.akimt.demoTestNG.correction.des.LancerDesTest@1fb669c3]" started-at="2020-12-02T16:56:55 CET" name="testDCustom_NbrLancerException" finished-at="2020-12-02T16:56:55 CET" duration-ms="0" status="PASS">
+          <exception class="bstorm.akimt.demoTestNG.correction.des.NbrLancerException">
+            <message>
+              <![CDATA[nbrLancer devrait être positif et non nul.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[bstorm.akimt.demoTestNG.correction.des.NbrLancerException: nbrLancer devrait être positif et non nul.
+at bstorm.akimt.demoTestNG.correction.des.LancerDesImpl.DCustom(LancerDesImpl.java:37)
+at bstorm.akimt.demoTestNG.correction.des.LancerDesTest.testDCustom_NbrLancerException(LancerDesTest.java:57)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.MethodInvocationHelper$1.runTestMethod(MethodInvocationHelper.java:238)
+at org.springframework.test.context.testng.AbstractTestNGSpringContextTests.run(AbstractTestNGSpringContextTests.java:181)
+at org.testng.internal.MethodInvocationHelper.invokeHookable(MethodInvocationHelper.java:252)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:595)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at bstorm.akimt.demoTestNG.correction.prog.ExoProg.main(ExoProg.java:38)
+]]>
+            </full-stacktrace>
+          </exception> <!-- bstorm.akimt.demoTestNG.correction.des.NbrLancerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDCustom_NbrLancerException -->
+        <test-method is-config="true" signature="springTestContextAfterTestClass()[pri:0, instance:bstorm.akimt.demoTestNG.correction.des.LancerDesTest@1fb669c3]" started-at="2020-12-02T16:56:55 CET" name="springTestContextAfterTestClass" finished-at="2020-12-02T16:56:55 CET" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestClass -->
+      </class> <!-- bstorm.akimt.demoTestNG.correction.des.LancerDesTest -->
+    </test> <!-- correction test -->
+  </suite> <!-- correction suite -->
 </testng-results>

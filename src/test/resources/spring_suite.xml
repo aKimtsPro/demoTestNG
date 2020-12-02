@@ -16,7 +16,7 @@
 
         <classes>
             <class name="bstorm.akimt.demoTestNG.DemoTestNgApplicationTests"/>
-            <class name="bstorm.akimt.demoTestNG.correction.LancerDesTest"/>
+            <class name="bstorm.akimt.demoTestNG.correction.des.LancerDesTest"/>
         </classes>
 
 

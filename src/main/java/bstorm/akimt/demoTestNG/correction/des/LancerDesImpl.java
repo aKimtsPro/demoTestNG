@@ -1,10 +1,8 @@
-package bstorm.akimt.demoTestNG.correction;
+package bstorm.akimt.demoTestNG.correction.des;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.Random;
-import java.util.Scanner;
 
 @Service
 public class LancerDesImpl implements LancerDesService {

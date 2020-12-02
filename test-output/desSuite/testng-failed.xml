@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [desSuite]">
+  <test thread-count="5" name="desTest(failed)">
+    <parameter name="a" value="2"/>
+    <groups>
+      <run>
+        <include name="lancer"/>
+        <include name="bonus"/>
+        <include name="demoProg"/>
+        <exclude name="lancer"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="bstorm.akimt.demoTestNG.demoProg.DemoProgTest">
+        <methods>
+          <include name="testProgParam"/>
+        </methods>
+      </class> <!-- bstorm.akimt.demoTestNG.demoProg.DemoProgTest -->
+    </classes>
+  </test> <!-- desTest(failed) -->
+</suite> <!-- Failed suite [desSuite] -->

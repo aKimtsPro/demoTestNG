@@ -1,4 +1,4 @@
-package bstorm.akimt.demoTestNG.correction;
+package bstorm.akimt.demoTestNG.correction.des;
 
 public class NbrFaceException extends IllegalArgumentException {
 

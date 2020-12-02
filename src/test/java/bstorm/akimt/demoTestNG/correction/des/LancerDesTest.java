@@ -1,5 +1,9 @@
-package bstorm.akimt.demoTestNG.correction;
+package bstorm.akimt.demoTestNG.correction.des;
 
+import bstorm.akimt.demoTestNG.correction.des.BonusException;
+import bstorm.akimt.demoTestNG.correction.des.LancerDesService;
+import bstorm.akimt.demoTestNG.correction.des.NbrFaceException;
+import bstorm.akimt.demoTestNG.correction.des.NbrLancerException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.testng.AbstractTestNGSpringContextTests;
